@@ -19,4 +19,13 @@ A full-stack e-commerce website built with:
 ---
 
 ## 🗂️ Project Structure
-
+website/
+├── backend/          # Spring Boot application (Java 17 + H2 DB)
+│   ├── src/
+│   ├── pom.xml
+│   └── ...
+├── frontend/         # Vue.js frontend application
+│   ├── src/
+│   ├── public/
+│   └── ...
+└── README.md         # Project documentation
